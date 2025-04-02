@@ -8,7 +8,17 @@ const Navbar = ({ className }: { className?: string }) => {
     const [active, setActive] = useState<string | null>(null);
   return (
     <div  className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)} >
-        Navbar
+        <Menu setActive={setActive} >
+            <MenuItem setActive={setActive} active={active} item="Home">
+                <HoveredLink href="/">Home</HoveredLink>
+            </MenuItem>
+            <MenuItem setActive={setActive} active={active} item="Our Menu">
+                <HoveredLink href="/menu">Our Menu</HoveredLink>
+            </MenuItem>
+            <MenuItem setActive={setActive} active={active} item="Contact Us">
+                <HoveredLink href="/contact">Contact Us</HoveredLink>
+            </MenuItem>
+        </Menu>
     </div>
   )
 }
