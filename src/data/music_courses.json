@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Piano Lessons for Beginners",
+    "slug": "piano-lessons-for-beginners",
+    "description": "Learn the basics of piano playing with our comprehensive lessons for beginners. Topics include hand position, finger placement, and basic chords.",
+    "price": 49.99,
+    "instructor": {
+      "name": "John Doe",
+      "bio": "John Doe is a professional pianist with over 10 years of experience. He has taught piano lessons to students of all ages and skill levels."
+    },
+    "isFeatured": true,
+    "categories": ["piano", "beginner"],
+    "image": "piano.jpg",
+    "lessons": [
+      {
+        "title": "Lesson 1: Introduction to Piano",
+        "slug": "lesson-1-introduction-to-piano",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "description": "In this lesson, we will cover the basics of piano playing, including hand position and finger placement."
+      },
+      {
+        "title": "Lesson 2: Basic Chords",
+        "slug": "lesson-2-basic-chords",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "description": "In this lesson, we will learn basic chords and how to play them on the piano."
+      }
+    ]
+  },
+  {
+    "title": "Guitar Lessons for Intermediate",
+    "slug": "guitar-lessons-for-intermediate",
+    "description": "Take your guitar playing to the next level with our intermediate lessons. Topics include chord progressions, fingerstyle techniques, and music theory.",
+    "price": 99.99,
+    "instructor": {
+      "name": "Jane Doe",
+      "bio": "Jane Doe is a professional guitarist with over 15 years of experience. She has taught guitar lessons to students of all ages and skill levels."
+    },
+    "isFeatured": false,
+    "categories": ["guitar", "intermediate"],
+    "image": "guitar.jpg",
+    "lessons": [
+      {
+        "title": "Lesson 1: Chord Progressions",
+        "slug": "lesson-1-chord-progressions",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "description": "In this lesson, we will learn basic chord progressions and how to use them in songs."
+      },
+      {
+        "title": "Lesson 2: Fingerstyle Techniques",
+        "slug": "lesson-2-fingerstyle-techniques",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "description": "In this lesson, we will learn fingerstyle techniques and how to use them in songs."
+      }
+    ]
+  },
+  {
+    "title": "Drums Lessons for Advanced",
+    "slug": "drums-lessons-for-advanced",
+    "description": "Take your drumming to the next level with our advanced lessons. Topics include polyrhythms, odd time signatures, and advanced techniques.",
+    "price": 149.99,
+    "instructor": {
+      "name": "Bob Smith",
+      "bio": "Bob Smith is a professional drummer with over 20 years of experience. He has taught drum lessons to students of all ages and skill levels."
+    },
+    "isFeatured": false,
+    "categories": ["drums", "advanced"],
+    "image": "drums.jpg",
+    "lessons": [
+      {
+        "title": "Lesson 1: Polyrhythms",
+        "slug": "lesson-1-polyrhythms",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "description": "In this lesson, we will learn how to play polyrhythms on the drums."
+      },
+      {
+        "title": "Lesson 2: Odd Time Signatures",
+        "slug": "lesson-2-odd-time-signatures",
+        "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "description": "In this lesson, we will learn how to play in odd time signatures on the drums."
+      }
+    ]
+  }
+]
