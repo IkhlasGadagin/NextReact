@@ -27,11 +27,11 @@ const FeaturedCourses = () => {
     const featuredCourses = courseData.filter((course: CourseData) => course.isFeatured===false)
   return (
     <div 
-    className='py-12 bg-red-200'
+    className='py-12 bg-black'
     >
      <div>  
         <div className="text-center">
-            <h2 className="text-4xl font-bold text-teal-600">Featured Courses</h2>
+            <h2 className="text-4xl font-bold text-white-600">Featured Courses</h2>
             <p className="text-neutral-300 text-2xl text-teal-600">Learn With the Best</p>
         </div>
      </div>
