@@ -32,7 +32,7 @@ const FeaturedCourses = () => {
      <div>  
         <div className="text-center">
             <h2 className="text-4xl font-bold text-white-600">Featured Courses</h2>
-            <p className="text-neutral-300 text-2xl text-teal-600">Learn With the Best</p>
+            <p className="text-neutral-300 text-2xl text-red-300">Learn With the Best</p>
         </div>
      </div>
      <div className='mt-10'>
