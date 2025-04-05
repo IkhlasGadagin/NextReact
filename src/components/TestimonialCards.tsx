@@ -71,7 +71,8 @@ const TestimonialCards = () => {
       <h2 className="text-center mt-10 text-3xl">
         Hear Our Harmony: Voice of Success
       </h2>
-      <div className="relative flex h-[50rem] w-full items-center justify-center bg-white dark:bg-black">
+      <div className="relative flex min-h-[40rem] md:h-[50rem] w-full items-center justify-center bg-white dark:bg-black">
+      {/* <div className="relative flex h-[50rem] w-full items-center justify-center bg-white dark:bg-black"> */}
         {/* Background Grid */}
         <div
           className={cn(
@@ -86,8 +87,10 @@ const TestimonialCards = () => {
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black" />
 
         {/* Content */}
-        <div className="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-8 text-transparent text-4xl font-bold sm:text-7xl">
-          <div className="w-full max-w-6xl">
+        <div className="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-4 md:py-8 text-transparent text-2xl md:text-4xl lg:text-7xl font-bold">
+    <div className="w-full max-w-[90vw] md:max-w-6xl">
+        {/* <div className="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-8 text-transparent text-4xl font-bold sm:text-7xl">
+          <div className="w-full max-w-6xl"> */}
             <InfiniteMovingCards
               items={testimonials}
               direction="right"
