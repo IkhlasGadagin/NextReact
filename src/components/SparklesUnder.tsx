@@ -2,7 +2,8 @@
 import React from "react";
 import { SparklesCore } from "./ui/sparkles";
 import { FlipWords } from "./ui/flip-words";
-
+import { Button } from "./ui/moving-border";
+import Link from 'next/link'
 const SparklesUnder = () => {
     const words = [" Music", "Art", "Happiness", "Peace"];
     return (
@@ -29,6 +30,18 @@ const SparklesUnder = () => {
 
                 {/* Radial Gradient to prevent sharp edges */}
                 <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+            </div>
+            <div className="mt-4">
+               {/* <div className="text-center text-3xl mb-4 font-bold
+               bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400
+               md:text-xl lg:text-3xl
+               ">Dive into our comprehensive music cources and transform your 
+                musical journey today. Whether you're a beginner or looking
+                to refine your skills, we've got you covered</div>  */}
+                <Link href="/courses">
+                <Button
+                 borderRadius="1.75rem">Explore Courses</Button>
+                </Link>
             </div>
         </div>
     )
