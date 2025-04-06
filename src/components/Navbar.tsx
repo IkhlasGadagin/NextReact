@@ -10,14 +10,15 @@ const Navbar = ({ className }: { className?: string }) => {
     <div  className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50  p-4 md:top-10", className)} >
         <Menu setActive={setActive} >
             <MenuItem setActive={setActive} active={active} item="Home">
-                {/* <HoveredLink href="/">Home</HoveredLink> */}
+                 <HoveredLink href="/">Home</HoveredLink> 
             </MenuItem>
             <MenuItem setActive={setActive} active={active} item="Our Menu">
             <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/instruments/drums">Drums</HoveredLink>
-            <HoveredLink href="/instruments/guitar">Guitar</HoveredLink>
-            <HoveredLink href="/instruments/piano">Piano</HoveredLink>
-            <HoveredLink href="/instruments/violin">Violin</HoveredLink>
+            <HoveredLink href="/courses/guitar-fundamentals">Guitar</HoveredLink>
+            <HoveredLink href="/courses/blues-guitar-techniques">Blues Guitar</HoveredLink>
+            <HoveredLink href="/courses/electronic-music-production">Electronic Music</HoveredLink>
+            <HoveredLink href="/courses/music-production-fundamentals">Music Production</HoveredLink>
+            <HoveredLink href="/courses/piano-for-beginners">Piano</HoveredLink>
             </div>
                
             </MenuItem>
