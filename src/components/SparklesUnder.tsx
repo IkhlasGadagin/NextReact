@@ -6,7 +6,7 @@ import { Button } from "./ui/moving-border";
 import Link from 'next/link'
 
 const SparklesUnder = () => {
-    const words = [" Music", "Art", "Happiness", "Peace"];
+    const words = ["Music","Emotion", "Art", "Joy","Integrity", "Peace","Prosperity","Culture"];
     return (
         <div className="h-[20rem] md:h-[25rem] mt-16 w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
             <h1
@@ -32,10 +32,10 @@ const SparklesUnder = () => {
                 {/* Radial Gradient to prevent sharp edges */}
                 <div className="absolute inset-0 w-[90%] sm:w-[70%] h-full bg-black  [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div> {/* Decreased the width */}
             </div>
-            <div className="mt-10">
+            <div className="mt-10 font-bold ">
                 <Link href="/courses">
                     <Button
-                        borderRadius="1.75rem">Explore Courses</Button>
+                        borderRadius="1.6rem">Explore Courses</Button>
                 </Link>
             </div>
         </div>
