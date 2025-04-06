@@ -11,7 +11,7 @@ const SparklesUnder = () => {
         <div className="h-[20rem] md:h-[25rem] mt-16 w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
             <h1
                 className="text-3xl sm:text-xl md:text-5xl lg:text-6xl  md:mt-0 font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400"
-            > Welcome the World of <FlipWords words={words} /></h1>
+            > Welcome to the World of <FlipWords words={words} /></h1>
             <div className="w-[35rem] sm:w-[40rem] h-40 relative"> {/* Decreased the width on smaller screens */}
                 {/* Gradients */}
                 <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />

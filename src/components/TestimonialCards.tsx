@@ -93,7 +93,7 @@ const TestimonialCards = () => {
           <div className="w-full max-w-6xl"> */}
             <InfiniteMovingCards
               items={testimonials}
-              direction="right"
+              direction="left"
               speed="slow"
             />
           </div>
