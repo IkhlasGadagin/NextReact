@@ -68,7 +68,7 @@ const testimonials = [
 const TestimonialCards = () => {
   return (
     <>
-      <h2 className="text-center mt-10 text-3xl">
+      <h2 className="text-center text-white mt-10 text-3xl">
         Hear Our Harmony: Voice of Success
       </h2>
       <div className="relative flex min-h-[40rem] md:h-[50rem] w-full items-center justify-center bg-white dark:bg-black">
